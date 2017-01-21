@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url("/images/background.jpeg");
+  margin: auto;
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: #1a1b1c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 50px;
+  overflow-y: scroll;
 }
-
-a {
-  color: #00B7FF;
+#featured-songs {
+  padding-right: 10px;
+}
+#featured-art {
+  padding: 50px;
 }
