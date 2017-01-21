@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> 
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 
-
 </head>
 <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -16,6 +15,10 @@
             <div class="navbar-header">
               <a class="navbar-brand" href="/">Virtual World Encyclopedia</a>
               <ul class="nav nav-pills pull-right">
+                        <li role="presentation"><a href="/timelines">Timelines</a></li>
+                        <li role="presentation"><a href="/events">Events</a></li>
+                        <li role="presentation"><a href="/people">People</a></li>
+                        <li role="presentation"><a href="/places">Places</a></li>
                       {{#if user}}
                         <li role="presentation"><a href="/users/dashboard">Dashboard</a></li>
                         <li role="presentation"><a href="/users/logout">Logout, {{user.username}}</a></li>
@@ -47,7 +50,7 @@
             {{{body}}}
          
 
-        <footer class="footer">
+        <footer class="footer"><hr>
           <p>&copy; 2016 Virtual World Encyclopedia</p>
         </footer>
   <!-- </div> --> <!-- /container -->
